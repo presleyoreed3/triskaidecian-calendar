@@ -42,6 +42,12 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+# iCal gems for formatting properly
+gem "icalendar", require: true
+
+#simple calendar gem
+gem "simple_calendar", "~> 2.4"
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
