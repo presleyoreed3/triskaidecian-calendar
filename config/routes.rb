@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :events
 
   get "about", to: "about#index"
   get "converter", to: "converter#index"

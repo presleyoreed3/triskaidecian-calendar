@@ -45,9 +45,6 @@ gem "bootsnap", require: false
 # iCal gems for formatting properly
 gem "icalendar", require: true
 
-#simple calendar gem
-gem "simple_calendar", "~> 2.4"
-
 # Use Sass to process CSS
 # gem "sassc-rails"
 
@@ -76,3 +73,5 @@ group :test do
   gem "selenium-webdriver"
 
 end
+
+gem "simple_calendar", "~> 2.4"
